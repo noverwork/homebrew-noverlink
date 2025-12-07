@@ -1,30 +1,30 @@
 class Noverlink < Formula
   desc "Local-to-global tunneling CLI - expose your localhost to the web"
   homepage "https://github.com/noverwork/noverlink"
-  version "0.0.0-6d30174"
+  version "0.0.0-64e4ef9"
   license "AGPL-3.0-or-later"
 
   on_macos do
     on_arm do
       url "https://github.com/noverwork/noverlink/releases/download/latest/noverlink-darwin-arm64.tar.gz"
-      sha256 "3776f850dbad9f30007538948ebd9a6273880c2903598892fc0ffc802379e10b"
+      sha256 "e8e753ca68092e2e4e5dc4c5039ba0eaaa15513f9981ae57be6a1ac8c7ccd417"
     end
 
     on_intel do
       url "https://github.com/noverwork/noverlink/releases/download/latest/noverlink-darwin-x64.tar.gz"
-      sha256 "de79b9ef3a19f700e0a1577530ad689f63a5ae8c0a077afaa6468fcf9c068d16"
+      sha256 "c995c841200ed0541be27a09091f153247b84c1384fab8aae6ebf25ac5d0aa98"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/noverwork/noverlink/releases/download/latest/noverlink-linux-arm64.tar.gz"
-      sha256 "4412e3e896370409fe20938515dcab2b604df02edcf62d656ef6a4aab4c0ecd7"
+      sha256 "2daba1955cc27f7590156cf78c468ad17cd4ab1342495ba8bcb4c3646951be05"
     end
 
     on_intel do
       url "https://github.com/noverwork/noverlink/releases/download/latest/noverlink-linux-x64.tar.gz"
-      sha256 "2131b3d9817b293e4b112222d7e0ef214ddd7c9284ea09742fcd1310c03f1e51"
+      sha256 "14bf560decd6b9e82853e0382684409bd83eb4b171fd6d6cab57b74c818a8b51"
     end
   end
 
